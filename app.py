@@ -7,7 +7,7 @@ st.title("🤖 Chat với AI của tôi")
 
 # 2. Nhập API Key (Người dùng nhập hoặc cài sẵn trong Secrets)
 # Để bảo mật, chúng ta sẽ lấy từ Secrets của Streamlit Cloud sau này
-api_key = st.secrets["GOOGLE_API_KEY"]
+api_key = st.secrets["AIzaSyBsNXE4ITxfItcc4Sw0PAG-bcOZRMAuwRs"]
 
 if not api_key:
     st.error("Chưa cấu hình API Key.")
